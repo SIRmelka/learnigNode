@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 function Navbar (){
     return (
         <nav className='navbar'>
-          <span className="menu"><i class="fa-solid fa-bars"></i></span>
+          <span className="menu"><i className="fa-solid fa-bars"></i></span>
           <ul>
             <NavLink to='/'><li>
               Acceuil

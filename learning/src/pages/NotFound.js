@@ -5,7 +5,10 @@ const NotFound = () => {
     return (
         <div>
             <Navbar/>
-            <h1>Error 404</h1>
+            <div className='body'>
+                <h1>Error 404</h1>
+            </div>
+           
         </div>
     );
 };
