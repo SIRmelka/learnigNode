@@ -17,6 +17,8 @@ const Test = () => {
             {id:8,name:"Samuel Biselele",view:440,like:76,comments:23,share:2,picture:"./assets/4884785.jpg"}
         ]
     )
+
+    const [isLiked,setIsLiked] = useState(true)
     
 
     const addLike = (y) =>{
@@ -24,25 +26,18 @@ const Test = () => {
         if(likedPost.indexOf(y)!=-1)
         {
             newtab[y].like-=1
-            likedPost.splice(likedPost.indexOf(y))
-            console.log("retirer");
+            likedPost.splice(likedPost.indexOf(y),1)
+
         }
         else{
             newtab[y].like+=1
             likedPost.push(y)
-            console.log("added");
             
         }
         setPost(newtab)
     }
 
-    const [likedPost,setLikedPost] = useState(
-        [
-            0,1
-        ]
-    )
-
-    // addLike()
+    const [likedPost,setLikedPost] = useState([])
 
     return (
         <div>
@@ -53,6 +48,7 @@ const Test = () => {
                     return(
                         <Card 
                             liker = {()=>{addLike(thepost.id)}}
+                            isLiked={likedPost.indexOf(thepost.id)!=-1?isLiked:!isLiked}
                             key={thepost.id}
                             name={thepost.name}
                             view={thepost.view}

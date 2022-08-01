@@ -6,7 +6,6 @@ const Card = (props) => {
     const [like,setLike] = useState(false)
 
 
-
     const liker = () =>{
         setLike(!like)
     }
@@ -23,7 +22,7 @@ const Card = (props) => {
             <img className='card-image' src={props.picture} alt="profile"></img>
         </div>
         <div className='card-footer'>
-            <span onClick={props.liker}>{props.like} <i className={like?"liked fa-solid fa-heart":"fa-regular fa-heart"}></i></span>
+            <span onClick={props.liker}>{props.like}<i className={props.isLiked?"liked fa-solid fa-heart":"fa-regular fa-heart"}></i></span>
             <span>{props.comments} <i className="fa-solid fa-comment-dots"></i></span>
             <span>{props.share} <i className="fa-solid fa-share"></i></span>
         </div>
