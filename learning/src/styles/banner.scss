@@ -1,0 +1,9 @@
+.banner{
+    margin: 1em;
+    background: $tertiary;
+    min-width: 99%;
+    min-height: 30em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}  

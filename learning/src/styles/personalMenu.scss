@@ -1,0 +1,66 @@
+.banner-menu{
+    margin: 0em;
+    padding: 0.2em;
+    display: flex;
+    justify-content: space-between;
+
+    .actions{
+        width: 50px;
+        color:$primary;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-items: flex-end;
+        justify-content: space-between;
+
+    }
+  
+}
+.personal-menu{
+    flex: 30%;
+    
+    .top{
+     
+        display: flex;
+        justify-content: space-between;
+        background: white;
+        width: 100%;
+        max-height: 12%;
+
+        .actions{
+            width: 70px;
+            margin-right: 10px;
+        }
+    }
+}
+.general-view{
+     
+    flex: 70%;
+
+    .top{
+        display: flex;
+        justify-content: space-between;
+        background: white;
+        width: 100%;
+        max-height: 12%;
+
+        i{
+            margin-top: 1.2em;
+            margin-right: 1em;
+    
+        }
+    }
+}
+
+.avatar{
+     
+    .profile-picture{
+      background: url("https://i0.wp.com/www.sekilasindonesia.id/wp-content/uploads/2020/01/IMG-20200103-WA0087.jpg?fit=900%2C1200&ssl=1&w=640");
+      background-size:cover;
+      background-repeat: no-repeat;
+      width: 40px;
+      height: 40px;
+      border-radius: 50px;
+      margin: 0.5em;
+    }
+  }

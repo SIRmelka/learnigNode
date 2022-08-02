@@ -4,10 +4,13 @@ import Avatar from './Avatar';
 
 const PersonalMenu = () => {
     return (
-        <div className='top personal'>
-            <Avatar/>
-            <ActionButtons/>
-        </div>
+            <div className='banner-menu personal-menu'>
+                <div className='top'>
+                    <Avatar/>
+                    <ActionButtons/>
+                </div>
+            </div>
+    
     );
 };
 

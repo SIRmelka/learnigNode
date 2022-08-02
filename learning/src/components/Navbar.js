@@ -16,7 +16,7 @@ function Navbar (){
             </li></NavLink>
           </ul>
           <button> Log out</button>
-     </nav>
+      </nav>
     )
 } 
 

@@ -1,13 +1,18 @@
 import React from 'react';
-import ActionButtons from './ActionButtons';
 import Avatar from './Avatar';
 
 const GeneralView = () => {
     return (
-        <div className='top general'>
-            <Avatar/>
-            
+        <div className='banner-menu general-view'>
+             <div className='top'>
+                <Avatar/>
+        
+                <span className='more'><i className="fa-solid fa-ellipsis-vertical"></i></span>
+           
+              
+            </div>
         </div>
+       
     );
 };
 

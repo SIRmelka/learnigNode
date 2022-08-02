@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Card from '../components/Card';
+import ImagesLoader from '../components/ImagesLoader';
 import Navbar from '../components/Navbar';
 
 const Test = () => {
@@ -61,7 +62,7 @@ const Test = () => {
                 })}
            
             </div>
-            <div className='loader'><p>Plus d'images</p><i className="fa-solid fa-spinner"></i></div>
+            <ImagesLoader />
 
         </div>
     );
