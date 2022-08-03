@@ -1,5 +1,5 @@
 .banner-menu{
-    margin: 0em;
+    margin: 0.1em;
     padding: 0.2em;
     display: flex;
     justify-content: space-between;
@@ -18,15 +18,21 @@
 }
 .personal-menu{
     flex: 30%;
+    flex-direction:column;
+    justify-content: flex-start;
     
+    max-height: 30%;
     .top{
      
         display: flex;
         justify-content: space-between;
         background: white;
         width: 100%;
-        max-height: 12%;
-
+        max-height: 14%;
+        span{
+            padding-top:5%;
+            font-weight: bold;
+        }
         .actions{
             width: 70px;
             margin-right: 10px;
@@ -36,13 +42,16 @@
 .general-view{
      
     flex: 70%;
-
+    flex-direction:column;
+    justify-content: flex-start;
+    
+    max-height: 20%;
     .top{
         display: flex;
         justify-content: space-between;
         background: white;
         width: 100%;
-        max-height: 12%;
+        max-height:14%;
 
         i{
             margin-top: 1.2em;
@@ -55,7 +64,7 @@
 .avatar{
      
     .profile-picture{
-      background: url("https://i0.wp.com/www.sekilasindonesia.id/wp-content/uploads/2020/01/IMG-20200103-WA0087.jpg?fit=900%2C1200&ssl=1&w=640");
+    
       background-size:cover;
       background-repeat: no-repeat;
       width: 40px;

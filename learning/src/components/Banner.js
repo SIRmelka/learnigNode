@@ -11,7 +11,6 @@ const Banner = () => {
                 <div className='banner'>
                 <PersonalMenu/>
                 <GeneralView/>
-                    
                 </div>
             </div>
         </div>

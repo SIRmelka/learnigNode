@@ -1,0 +1,13 @@
+.contacts{
+    padding: 0px 15px;
+    position:relative;
+    width: 94%;
+    top: 1%;
+    background: #fff;
+    max-height: 79%;
+    overflow:auto;
+    scrollbar-width:thin;
+
+    scrollbar-color: $primary $tertiary;
+
+}

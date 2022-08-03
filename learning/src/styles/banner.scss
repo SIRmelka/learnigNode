@@ -1,8 +1,10 @@
 .banner{
+    position: absolute;
     margin: 1em;
     background: $tertiary;
     min-width: 99%;
-    min-height: 30em;
+    max-height: 88%;
+   
     display: flex;
     justify-content: space-between;
     flex-direction: row;

@@ -15,7 +15,6 @@ function App() {
         <Route path="/performances" element={<Performances/>} />
         <Route path="/*" element={<NotFound/>} />
       </Routes>
-      <h5>test</h5>
     </BrowserRouter></>
    
   );

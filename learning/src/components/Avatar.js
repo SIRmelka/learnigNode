@@ -1,9 +1,11 @@
 import React from 'react';
 
-const Avatar = () => {
+const Avatar = (props) => {
+
+    
     return (
         <div className='avatar'>
-            <div className='profile-picture'>
+            <div className='profile-picture' style={{backgroundImage: `url(${props.url})`}} >
            
             </div>
         </div>
