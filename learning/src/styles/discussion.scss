@@ -1,4 +1,7 @@
 .discussion{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
     padding: 5px;
     margin: 5px 0;
     background: white;
@@ -6,4 +9,26 @@
     overflow: auto;
     background-image: url("https://i.pinimg.com/736x/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg");
     background-size: contain;
+    scrollbar-color: #eee #eee;
+
+    .received-message,.sended-message{
+        background: $primary;
+        display: inline-block;
+        color: white;
+        border-radius:20px 35px 0px 35px ;
+        padding: 2% 2%;
+        margin: 1%;
+        max-width: 45%;
+    }
+    .sended-message{
+     float: right;
+     background: #a0cff9;
+     color: #000;
+     border-radius:35px 20px 35px 0px ;
+     border: 0px solid #aaa;
+     
+    }
+}
+.discussion:hover{
+    scrollbar-color: $primary $tertiary;
 }
