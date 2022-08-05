@@ -4,6 +4,8 @@ import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import Test from './pages/Test';
 import Performances from './pages/Performances';
+import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
+
 
 function App() {
   return (

@@ -1,0 +1,43 @@
+.received-message,.sended-message{
+    background: $primary;
+    display: inline-block;
+    color: white;
+    border-radius:20px 35px 0px 35px ;
+    padding: 2% 2%;
+    margin: 1%;
+    min-width: 15%;
+    max-width: 45%;
+  
+}
+.sended-message{
+ float: right;
+ background: #ffffff;
+ color: #333;
+ border-radius:35px 20px 35px 0px ;
+ border: 1px solid #ddd;
+ text-align: left;
+ span{
+    margin-top: 0.5em;
+    float:right;
+    position: relative;
+    color: #555;
+    font-weight: bold;
+}
+.i{
+    float: left;
+    color: $primary;
+}
+ 
+}
+.received-message{
+    text-align: left;
+    span{
+        margin-top: 0.5em;
+        float:left;
+        position: relative;
+        font-weight: bold;
+    }
+    .i{
+        display: none;
+    }
+}
