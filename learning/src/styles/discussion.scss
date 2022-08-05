@@ -38,11 +38,20 @@
         .attach-file-icon{
             font-size: 30px;
             margin: 3px;
+            transition: 0.2s;
+        }
+        .attach-file-icon:hover{
+            cursor: pointer;
+            transform: scale(1.2);
         }
         .send-boutton{
             font-size: 30px;
             margin: 3px;
-           
+            transition: 0.2s;
+        }
+        .send-boutton:hover{
+            cursor: pointer;
+            transform: scale(1.2);
         }
         textarea{
             
